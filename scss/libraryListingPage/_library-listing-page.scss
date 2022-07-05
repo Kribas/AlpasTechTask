@@ -1,0 +1,23 @@
+.library__body {
+    .library__item {
+        position: relative;
+        margin: 20px 0px;
+        img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .library__item__detail {
+            position: absolute;
+            width: 100%;
+            bottom: 0px;
+            color: #fff;
+            padding: 10px 10px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+                h6 {
+                    margin-bottom: 0px;
+                }
+        }
+    }
+}
